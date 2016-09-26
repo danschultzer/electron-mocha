@@ -12,6 +12,7 @@ function parse (argv) {
     .usage('[options] [files]')
     .option('-C, --no-colors', 'force disabling of colors')
     .option('-R, --reporter <name>', 'specify the reporter to use', 'spec')
+    .option('-O, --reporter-options <k=v,k2=v2,...>', 'reporter-specific options')
     .option('-S, --sort', 'sort test files')
     .option('-b, --bail', 'bail after first test failure')
     .option('-g, --grep <pattern>', 'only run tests matching <pattern>')
